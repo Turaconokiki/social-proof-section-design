@@ -10,33 +10,32 @@ body{
 section{
     display: flex;
     justify-content: space-between;
-    width: 85%;
+
+    width: 100%;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 100px ;
 }
 
 .image-box{
-    width: 60%;
-    margin-left: 0;
-}
-.section{
-    margin-left: 40px;
+    width: 90%;
+    margin: 0;
 }
 
+
 .text{
-    text-align: end;
-    width: 20%;
+    text-align: right;
+    width: 100%;
 }
 
 img{
-   max-width: 85% ; 
-   width:389;
-   height: 487;
+   max-width: 100% ; 
+   
    
 }
 .section2{
     float: right;
     justify-content: space-between;
+    margin-bottom:50px  ;
 }
 
 .clearfix{
@@ -45,15 +44,11 @@ img{
 
 
 #right-text{
-    text-align: left;
-    margin-left: 0;
+    text-align: right;
+    
 }
 
 
-#diffimg{
-    margin-left: 0;
-    margin-bottom: 150px;
-}
 
 .review{
     font-size: 25px;
@@ -81,3 +76,48 @@ a:hover{
 h4{
     color: rgb(175, 119, 119);
 }
+
+ @media(max-width: 760px){
+
+    
+
+    section{
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    
+    }
+    .text{
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    img{
+        display: block;
+        width: 100%;
+    }
+
+    #diffimg{
+        float: right;
+    }
+
+    #righttext{
+        float: right;
+    }
+    .section2{
+        margin: 0;
+        margin-bottom: 100PX;
+    }
+
+
+       
+ }
+    
+    
+
+    
+
+
+
